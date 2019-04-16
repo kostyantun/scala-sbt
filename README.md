@@ -6,7 +6,7 @@
 
 ## Base Docker Image ##
 
-* [openjdk:8-jdk-alpine](https://hub.docker.com/_/openjdk)
+* [davidcaste/alpine-java-unlimited-jce:jdk8](https://hub.docker.com/r/davidcaste/alpine-java-unlimited-jce)
 
 
 ## Installation ##

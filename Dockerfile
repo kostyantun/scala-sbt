@@ -1,11 +1,11 @@
 #
 # Scala and sbt Dockerfile
 #
-# https://github.com/spikerlabs/scala-sbt (based on https://github.com/hseeberger/scala-sbt)
+# based on https://github.com/hseeberger/scala-sbt
 #
 
 # Pull base image
-FROM  openjdk:8-jdk-alpine
+FROM davidcaste/alpine-java-unlimited-jce:jdk8
 
 ARG SCALA_VERSION
 ARG SBT_VERSION
